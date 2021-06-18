@@ -1,0 +1,183 @@
+    *{
+
+      margin: 0;
+
+    }
+
+      body{
+
+        color:white;
+
+        height: 100vh;
+
+        width: 100vw;
+
+        font-family: sans-serif;
+
+        background-image:url("https://source.unsplash.com/1280x1280/?library,books"),linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+
+       background-repeat: no-repeat;
+
+       background-position: fixed;
+
+       background-size: cover;
+
+       
+
+      }
+
+      .container{
+
+        height: 100vh;
+
+        width: 100vw;
+
+        background-color: rgba(0,0,0,.8);
+
+        
+
+      }
+
+      .center {
+
+        height: 95vh;
+
+        width: 95vw;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+      }
+
+      label{
+
+        margin-left: 10%;
+
+      }
+
+      input{
+
+        margin: 10px 0;
+
+        padding:12px 20px;
+
+        background-color: rgba(255, 255, 255, 0.1);
+
+        color: white;
+
+        display: inline-block;
+
+        border: none;
+
+        height: 10%;
+
+        width:70%;
+
+        border-radius: 4px;
+
+        text-align: center;
+
+        margin-left: 10%;
+
+        transition-duration: 0.4s;
+
+      }
+
+      input[type="submit"]{
+
+        width: 78.5%;
+
+        font-size: 15px;
+
+        font-weight: 500;
+
+        border: none;
+
+        color: #fff;
+
+        background-color: #ff4500;
+
+        transition-duration: 0.4s;
+
+      }
+
+      input:focus{
+
+        border: 1px dashed white;
+
+        box-shadow: 0px 0px 10px coral;
+
+      }
+
+      input[type="submit"]:hover{
+
+        box-shadow: 0 0 10px coral;
+
+        color: black;
+
+        background-color: white;
+
+      }
+
+      input[type="text"]:hover, input[type="password"]:hover{
+
+        box-shadow: 0 0 10px coral;
+
+        border: 1px dashed white;
+
+      }
+
+      fieldset{
+
+        border: 3px dashed white;
+
+        height: 270px;
+
+        
+
+      }
+
+      legend{
+
+        text-align: center;
+
+        color:white;
+
+        font-size: 40px;
+
+      }
+
+      p{
+
+        text-align: center;
+
+      }
+
+      a{
+
+        color: white;
+
+        text-decoration: none;
+
+        transition-delay: .4s;
+
+      }
+
+      a:hover{
+
+        border-bottom: 1px dashed;
+
+      }
+
+     @media screen and (max-width: 800px) {
+
+     input[type="submit"]{
+
+       width: 82.5%;
+
+     }
+
+     }
